@@ -4,14 +4,15 @@ body {
 
 .topf {
 	margin: 0;
-	text-align: center;
-	width: 85%;
+	width: auto;
 }
 
 i {
 	color: #e85b51;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 h3 {
@@ -102,4 +103,16 @@ label {
 
 .radio1:checked + .checkbox::after {
 	transform: scale(1);
+}
+
+footer {
+	text-align: center;
+	color: #d4d6d6;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+footer > h3 {
+	text-align: center;
+	color: #d4d6d6;
 }
