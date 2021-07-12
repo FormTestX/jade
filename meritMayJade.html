@@ -8,10 +8,11 @@
 </head>
 <body>
 
+<div class="topf">
 	<h3>Markah Merit Mei</h3>
-	<p>Field yang ditanda <i>(optional)</i> tidak perlu di isi jika tiada. Maceh</p>
+	<p>Field yang tidak ditanda <i>*</i> tidak perlu di isi jika tiada. Maceh</p>
 
-	<br>
+	<br></div>
 
 <!---------------------------------------------- FORM ---------------------------------------------------->
 
@@ -19,31 +20,45 @@
 
 <!-----------START---------------->
 
+<div class="center">
 <div class="borderpad">
 	<label>Nama:</label><br>
 	<input class="nama" type="text" name="nama" required placeholder="Nama Penuh">
-</div>
+</div></div>
 
 
-<div class="borderpad">
+<div class="center"><div class="borderpad">
 	<label>Markah:</label><br><br>
-	<input type="radio" id="radio1" name="markah" value="1">
-	<label for="markah">4.00 - 3.79</label><br>
+	<label for="Val11">
+		<input type="radio" id="Val11" class="radio1" name="markah" value="1" required>
+		<div class="checkbox"></div>
+		4.00 - 3.79
+	</label><br>
 
-	<input type="radio" id="radio1" name="markah" value="2">
-	<label for="markah">something</label><br>
+	<label for="Val21">
+		<input type="radio" id="Val21" class="radio1" name="markah" value="2" required>
+		<div class="checkbox"></div>
+		smtg
+	</label><br>
 
-	<input type="radio" id="radio1" name="markah" value="3">
-	<label for="markah">smtg</label><br>
+	<label for="Val31">
+		<input type="radio" id="Val31" class="radio1" name="markah" value="3" required>
+		<div class="checkbox"></div>
+		an7
+	</label><br>
 
-	<input type="radio" id="radio1" name="markah" value="4">
-	<label for="markah">mrkh</label><br>
+	<label for="Val41">
+		<input type="radio" id="Val41" class="radio1" name="markah" value="4" required>
+		<div class="checkbox"></div>
+		somtg
+	</label><br>
 
-</div>
+</div></div>
 
+<div class="center">
 <button type="submit" class="pageclip-form__submit">
     <span>Send</span>
-  </button>
+  </button></div>
 </form>
 
 
