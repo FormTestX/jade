@@ -43,6 +43,9 @@ h3 {
 	width: 95%;
 	margin-top: 15px;
 	text-transform: uppercase;
+	appearance: none;
+
+	transition: border 0.20s;
 }
 
 input:focus {
@@ -68,8 +71,8 @@ button {
 }
 
 button:hover {
-	background-color: #abced6;
-	border: 1px solid #abced6;
+	background-color: #8bc0c7;
+	border: 1px solid #8bc0c7;
 }
 
 .center {
@@ -123,12 +126,12 @@ footer > h3 {
 
 /*-------------------------------------------------------------LIGHT--------------------------------------------------------*/
 
-	@media screen and (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
 
 body {
 	font-family: Arial;
 	background-color: #fff;
-	color: #303030 ;
+	color: #303030;
 }
 
 .topf {
@@ -168,6 +171,9 @@ h3 {
 	width: 95%;
 	margin-top: 15px;
 	text-transform: uppercase;
+	appearance: none;
+
+	transition: border 0.20s;
 }
 
 input:focus {
@@ -193,8 +199,8 @@ button {
 }
 
 button:hover {
-	background-color: #abced6;
-	border: 1px solid #abced6;
+	background-color: #8bc0c7;
+	border: 1px solid #8bc0c7;
 }
 
 .center {
